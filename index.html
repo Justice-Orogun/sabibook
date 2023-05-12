@@ -38,7 +38,7 @@
                 <input type="text" placeholder="Search">
             </div> 
 
-            <div class="nav-user-icon online"> 
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()"> 
                 <img src="images/jay.jpg"> 
 
             </div>
@@ -48,6 +48,10 @@
         <!-- Settings menu-->
 
         <div class="settings-menu">   
+                <div id="dark-btn"  > 
+                    <span> </span>
+
+                </div>
 
                 <div class="settings-menu-inner">  
 
@@ -186,18 +190,13 @@
                             </div>
                         </div> 
 
-
                         <div class="post-input-container">
                            <textarea  rows="3" placeholder="What's on your mind, Jay?"></textarea>
-                       
                             <div class="add-post-links">
                                 <a href="#"> <img src="images/live-video.png"> Live Video</a>
                                 <a href="#"> <img src="images/photo.png"> Photo/Video</a>
                                 <a href="#"> <img src="images/feeling.png"> Feeling/Activity</a>
                             </div>
-
-
-                           
                         </div>
 
                     </div> 
@@ -495,5 +494,7 @@
 
     </div>
     
+
+    <script src="/script.js"> </script>
 </body>
 </html>

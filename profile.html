@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Sabi Book</title> 
+
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+
+    <script src="https://kit.fontawesome.com/29e307186d.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+
+    <nav>  
+        <!-- this is the nav -->
+        <div class="nav-left"> 
+            <img src="images/jay1.jpg" class="logo">  
+            <ul> 
+                <li> <img src="images/notification.png"></li>
+
+                <li> <img src="images/inbox.png"></li>
+
+                <li><img src="images/video.png"> </li>
+
+            </ul>
+
+        </div> 
+
+
+
+            <!-- this is the search bar -->
+        <div class="nav-right"> 
+            <div class="search-box"> 
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div> 
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()"> 
+                <img src="images/jay.jpg"> 
+
+            </div>
+        </div> 
+
+
+        <!-- Settings menu-->
+
+        <div class="settings-menu">   
+                <div id="dark-btn"  > 
+                    <span> </span>
+
+                </div>
+
+                <div class="settings-menu-inner">  
+
+                    <div class="user-profile">
+                        <img src="images/jay.jpg"> 
+                        <div> 
+                            <p>Justice Orogun</p> 
+                            <a href="#">See Your Profile</a>     
+                        </div>
+                    </div>   
+           
+                    <hr>  
+
+
+                    <div class="setting-links">
+                        <img src="images/setting.png" class="settings-icon"> 
+                        <a href="#">Settings and privacy  
+                            <img src="images/arrow.png" width="10px"> 
+                        </a>
+                    </div> 
+
+                    <div class="setting-links">
+                        <img src="images/help.png" class="settings-icon"> 
+                        <a href="#">Help & support  
+                            <img src="images/arrow.png" width="10px"> 
+                        </a>
+                    </div>
+
+                    <div class="setting-links">
+                        <img src="images/display.png" class="settings-icon"> 
+                        <a href="#">Display & sccessiblity
+                            <img src="images/arrow.png" width="10px"> 
+                        </a>
+                    </div> 
+
+                    <div class="setting-links">
+                        <img src="images/feedback.png" class="settings-icon"> 
+                        <a href="#">Get Feedback
+                            <img src="images/arrow.png" width="10px"> 
+                        </a>
+                    </div> 
+
+                    <div class="setting-links">
+                        <img src="images/logout.png" class="settings-icon"> 
+                        <a href="#">Log Out
+                            <img src="images/arrow.png" width="10px"> 
+                        </a>
+                    </div>
+                </div>
+        </div>
+    </nav>  
+
+
+
+     <!-- Profile page
+     --> 
+
+        <div class="profile-container"> 
+            <img src="images/cover.png" class="cover-img"> 
+            <div class="profile-details">
+
+                <div class="pd-left"> 
+                    <div class="pd-row">
+                        <img src="images/jay.jpg" class="pd-image"> 
+                        <div> 
+                            <h3>Justice Orogun</h3>
+                            <p><a href="#">3.7K followers</a> • <a href="#">3.8K following</a></p>
+                            <img src="images/member-1.png">
+                            <img src="images/member-2.png">
+                            <img src="images/member-3.png">
+                            <img src="images/member-4.png">
+                            <img src="images/member-5.png">
+                            <img src="images/member-6.png">
+                                    
+                        </div>
+                    </div>
+
+                </div> 
+
+                <div class="pd-right">  
+
+                    <button type="button"> <img src="images/add-friends.png">Friends</button>
+                    <button type="button"><img src="images/message.png"> Message</button> 
+                <br> 
+                    <a href="#"> <img src="images/more.png"></a>
+                </div>
+        </div> 
+
+
+        <div class="profile-info"> 
+            <div class="info-col"></div>
+
+
+            <div class="post-col">
+
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/jay.jpg"> 
+
+                        <div> 
+                            <p>Justice Orogun</p> 
+                            <small>Public <i class="fa-solid fa-caret-down"></i> </small>
+                        </div>
+                    </div> 
+
+                    <div class="post-input-container">
+                       <textarea  rows="3" placeholder="What's on your mind, Jay?"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"> <img src="images/live-video.png"> Live Video</a>
+                            <a href="#"> <img src="images/photo.png"> Photo/Video</a>
+                            <a href="#"> <img src="images/feeling.png"> Feeling/Activity</a>
+                        </div>
+                    </div>
+
+                </div> 
+
+
+
+                    
+                <div class="post-container"> 
+                    <div class="post-row"> 
+                        <div class="user-profile">
+                            <img src="images/jay.jpg"> 
+                            <div> 
+                                <p>Justice Orogun</p> 
+                                <span>May 9 2023, 18:30 pm</span>
+                            </div> 
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                
+                <p class="post-text">
+                    Visit my Website <span>justiceorogun.com </span>
+                    You never change your life until you step out of your comfort zone; 
+                    change begins at the end of your comfort zone.
+                    <a href="#">#JusticeOrogun </a> #SoftwareDeveloper 
+                </p> 
+                <img src="images/feed-image-1.png" class="post-img">
+        
+                
+                <div class="post-row"> 
+                    <div class="activity-icons"> 
+                        <div><img src="images/like-blue.png" alt="like">920 </div>
+                        <div><img src="images/comments.png" alt="like">22 </div>
+                        <div><img src="images/share.png" alt="like">5 </div>
+                    </div>  
+
+                    <div class="post-profile-icon">  
+                        <img src="images/jay.jpg"><i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+
+                </div>
+            </div> 
+
+
+
+            
+            <div class="post-container"> 
+                <div class="post-row"> 
+                    <div class="user-profile">
+                        <img src="images/jay.jpg"> 
+                        <div> 
+                            <p>Justice Orogun</p> 
+                            <span>May 9 2023, 18:30 pm</span>
+                        </div> 
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+            
+            <p class="post-text">
+                Visit my Website <span>justiceorogun.com </span>
+                You never change your life until you step out of your comfort zone; 
+                change begins at the end of your comfort zone.
+                <a href="#">#JusticeOrogun </a> #SoftwareDeveloper 
+            </p> 
+            <img src="images/feed-image-2.png" class="post-img">
+    
+            
+            <div class="post-row"> 
+                <div class="activity-icons"> 
+                    <div><img src="images/like-blue.png" alt="like">920 </div>
+                    <div><img src="images/comments.png" alt="like">22 </div>
+                    <div><img src="images/share.png" alt="like">5 </div>
+                </div>  
+
+                <div class="post-profile-icon">  
+                    <img src="images/jay.jpg"><i class="fa-solid fa-caret-down"></i>
+
+                </div>
+
+            </div>
+        </div> 
+
+
+        
+        <div class="post-container"> 
+            <div class="post-row"> 
+                <div class="user-profile">
+                    <img src="images/jay.jpg"> 
+                    <div> 
+                        <p>Justice Orogun</p> 
+                        <span>May 9 2023, 18:30 pm</span>
+                    </div> 
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+        
+        <p class="post-text">
+            Visit my Website <span>justiceorogun.com </span>
+            You never change your life until you step out of your comfort zone; 
+            change begins at the end of your comfort zone.
+            <a href="#">#JusticeOrogun </a> #SoftwareDeveloper 
+        </p> 
+        <img src="images/feed-image-3.png" class="post-img">
+
+        
+        <div class="post-row"> 
+            <div class="activity-icons"> 
+                <div><img src="images/like-blue.png" alt="like">920 </div>
+                <div><img src="images/comments.png" alt="like">22 </div>
+                <div><img src="images/share.png" alt="like">5 </div>
+            </div>  
+
+            <div class="post-profile-icon">  
+                <img src="images/jay.jpg"><i class="fa-solid fa-caret-down"></i>
+
+            </div>
+
+        </div>
+    </div> 
+
+                    <div class="post-container"> 
+                        <div class="post-row"> 
+                            <div class="user-profile">
+                                <img src="images/jay.jpg"> 
+                                <div> 
+                                    <p>Justice Orogun</p> 
+                                    <span>May 9 2023, 18:30 pm</span>
+                                </div> 
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                    
+                    <p class="post-text">
+                        Visit my Website <span>justiceorogun.com </span>
+                        You never change your life until you step out of your comfort zone; 
+                        change begins at the end of your comfort zone.
+                        <a href="#">#JusticeOrogun </a> #SoftwareDeveloper 
+                    </p> 
+                    <img src="images/feed-image-4.png" class="post-img">
+            
+                    
+                    <div class="post-row"> 
+                        <div class="activity-icons"> 
+                            <div><img src="images/like-blue.png" alt="like">920 </div>
+                            <div><img src="images/comments.png" alt="like">22 </div>
+                            <div><img src="images/share.png" alt="like">5 </div>
+                        </div>  
+
+                        <div class="post-profile-icon">  
+                            <img src="images/jay.jpg"><i class="fa-solid fa-caret-down"></i>
+
+                        </div>
+
+                    </div>
+                </div> 
+
+
+
+
+
+                <div class="post-container"> 
+                        <div class="post-row"> 
+                            <div class="user-profile">
+                                <img src="images/jay.jpg"> 
+                                <div> 
+                                    <p>Justice Orogun</p> 
+                                    <span>May 9 2023, 18:30 pm</span>
+                                </div> 
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                
+                        <p class="post-text">
+                            Visit my Website <span>justiceorogun.com </span>
+                            You never change your life until you step out of your comfort zone; 
+                            change begins at the end of your comfort zone.
+                            <a href="#">#JusticeOrogun </a> #SoftwareDeveloper 
+                        </p> 
+                              <img src="images/feed-image-5.png" class="post-img">
+                        <div class="post-row"> 
+                            <div class="activity-icons"> 
+                                <div><img src="images/like-blue.png" alt="like">170 </div>
+                                <div><img src="images/comments.png" alt="like">422 </div>
+                                <div><img src="images/share.png" alt="like">105 </div>
+                            </div>  
+
+                            <div class="post-profile-icon">  
+                                <img src="images/jay.jpg"><i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                </div> 
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer"> 
+        <p> Copyright 2023 - <a href="https://justiceorogun.com">Justice Orogun</a></p>  
+
+    </div>
+    <script src="/script.js"> </script>
+</body>
+</html>
